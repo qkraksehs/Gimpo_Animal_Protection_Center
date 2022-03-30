@@ -1,0 +1,146 @@
+/* sub.css */
+@import url(./default.css);
+
+/* sub2-1(입양 - 센터아이들)  */ 
+#sub2-1 #main {
+  width: 1200px;
+  margin: 0 auto;
+  /* background: #ccc; */
+  overflow: hidden;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* 사이드바 - 모든 서브 공통 영역 */
+#main > aside {
+  width: 260px;
+  /* background: #abc; */
+  padding-top: 35px;
+  float: left;
+}
+
+#main > .contents {
+  width: 895px;
+  /* background: pink; */
+  float: right;
+  padding-top: 50px;
+}
+
+/* 사이드바 */
+#main > aside > h2 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 33px;
+}
+
+#main #lnb {
+  margin-bottom: 270px;
+}
+
+#main aside > #lnb li > a {
+  background-color: var(--bg-light);
+  display: block;
+  padding: 12px 20px;
+  border-bottom: 1px solid #999999;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* 현재 페이지 버튼 스타일 */
+#main aside > #lnb li.on > a {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+/* hover */
+#main aside > #lnb li > a:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+/* 콘텐츠 본문 */
+#main > .contents > .article-header {
+  /* background: #abc; */
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#main > .contents > .article-header > h2 {
+  float: left;
+  font-weight: 500;
+  font-size: 28px;
+}
+#main > .contents > .article-header .breadcrumb {
+  float: right;
+  line-height: 35px;
+  font-size: 12px;
+}
+
+#main > .contents > .article-header .breadcrumb > * {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+/* 콘텐츠 목록 
+  width: 895px; 
+  col-width = 285px
+  여백 20px
+*/
+#sub2-1 > #main .contents-group {
+  overflow: hidden;
+  /* background: #ddd; */
+}
+
+#sub2-1 > #main .contents-group .info-box {
+  width: 285px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+/* 매3열마다 마진 빼기 */
+#sub2-1 > #main .contents-group .info-box:nth-child(3n) {
+  margin-right: 0;
+}
+
+#sub2-1 > #main .contents-group .info-box-info h4 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+} 
+
+#sub2-1 > #main .contents-group .info-box p {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+#sub2-1 > #main .contents-group .info-box .bottom-info {
+  color: #666;
+}
+/* 오시는 길 5-1 */
+#sub5-1 #main .contact-info {
+  margin-bottom: 20px;
+}
+
+#sub5-1 #main .contact-info ul li {
+  display: inline-block;
+  float: left;
+}
+
+/* sub1-1 센터소개 */
+.contents-group > .contents-box {
+  background: #ededed;
+  position: relative;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.contents-group > .contents-box > img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 100%;
+}

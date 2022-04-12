@@ -127,20 +127,44 @@
 
 #sub5-1 #main .contact-info ul li {
   display: inline-block;
-  float: left;
 }
 
 /* sub1-1 센터소개 */
 .contents-group > .contents-box {
   background: #ededed;
-  position: relative;
   padding: 15px;
-  margin-top: 50px;
+  margin-top: 150px;
+  width: 600px;
 }
 
 .contents-group > .contents-box > img {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 89px;
+  top: 330px;
   border-radius: 100%;
+  display: none;
+}
+
+#sub1-1  .contents-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#sub1-1  .contents-group .wating {
+  margin-top: 10em;
+}
+
+#sub1-1  .contents-group .wating h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+#sub1-1  .contents-group .wating h2 span {
+  color: var(--main-color);
+}
+
+#sub1-1  .contents-group .wating p {
+  font-size: 24px;
 }
